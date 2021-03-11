@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="container">
+     <div id="cal">
+     <div id="left">
+         <p id="f">Student  Grade  Calculator</p>
+     </div>
+    
+     <div id="right">
+         <input type="text" class="mark" id ="id1" placeholder="Computer Science" >
+         <input type="text" class="mark" placeholder="Mathematics">
+         <input type="text" class="mark" placeholder="Physics">
+         <input type="text" class="mark" placeholder="English">
+         <input type="button" id="btn" value="Show Percentage" onclick="ShowResult()">
+        
+     </div>
+    </div>
+    <div id="result">
+        <p>Out of 400 your total score is <span id="marks">355</span> and percentage is 
+       <span id="percent">95%</span>.<br>Your Grade is <span id="grade">A</span>. You are 
+       <span id="final"></span>. </p>
+    </div>
+    
+
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
